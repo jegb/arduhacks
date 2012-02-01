@@ -2,7 +2,8 @@
   Scalextric sketch
  Reads 2 analog inputs on pin 0 & 1 , prints the result to the serial monitor
  and writes to PWM outputs a mapped value to 0-255 (full duty cycle)
- 
+ schematic is currently for one input / output. 
+
  by enrique gallar (c) 2012
  */
 
@@ -18,7 +19,7 @@ void setup() {
 void loop() {
   int sensorValue1 = analogRead(A0); // read thrust car 1
   int sensorValue2 = analogRead(A1); // read thrust car 2
-  int outputValue1 = map(sensorValue1, 22, 0, 0, 200);
+  int outputValue1 = map(sensorValue1, 22, 0, 0, 200); //these were fine tuned using scope
   int outputValue2 = map(sensorValue2, 22, 0, 0, 200);
   analogWrite(transOut1, outputValue1);
   analogWrite(transOut2, outputValue2);
