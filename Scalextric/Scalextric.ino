@@ -19,8 +19,8 @@ void setup() {
 void loop() {
   int sensorValue1 = analogRead(A0); // read thrust car 1
   int sensorValue2 = analogRead(A1); // read thrust car 2
-  int outputValue1 = map(sensorValue1, 22, 0, 0, 200); //these were fine tuned using scope
-  int outputValue2 = map(sensorValue2, 22, 0, 0, 200);
+  int outputValue1 = map(sensorValue1, 300, 900, 20, 200); //these were fine tuned using scope
+  int outputValue2 = map(sensorValue2, 300, 900, 20, 200);
   analogWrite(transOut1, outputValue1);
   analogWrite(transOut2, outputValue2);
   
