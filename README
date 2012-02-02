@@ -1,10 +1,7 @@
 /**Here are some files that may help you a bit with your Arduino ATmega328.
 *
 *Scalextric cars and tracks are fun, what could be better than combine it with the fun of Arduino?
-*Schematic in Fritzing format is currently for one input and output.
-*Use at your own risk and race !
-
-*Potentiometers in scalextric controllers has a small mod-hacking so the end is not open on lowest speed.
+*Read project notes and use at your own risk, I have tested mine and it works  !
 
 *Have Fun !
 
