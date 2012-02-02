@@ -1,7 +1,0 @@
-/**
-Scalextric cars and tracks are fun, what could be better than combine it with the fun of Arduino?
-Schematic in Fritzing format is currently for one input and output.
-Use at your own risk and race !
-
-Potentiometers in scalextric controllers need little mod-hacking (currently in off-state will bring the input to non-stable input), photos will be added here.
-*/
